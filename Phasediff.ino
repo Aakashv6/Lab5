@@ -38,7 +38,7 @@ void loop() {
     Serial.println(freq);
   }
   
-  /* if(r1&r2){
+  if(r1&r2){
     count = count + 1;
     tau = t1 - t0 + tau;
     if(count%1001 == 0){
@@ -50,7 +50,6 @@ void loop() {
     r1 = false;
     r2 = false;
   }
-  */
   
 }
 
